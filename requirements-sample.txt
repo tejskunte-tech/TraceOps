@@ -1,0 +1,7 @@
+
+# Sample requirements for TraceOps demo
+django==4.1.0
+flask==2.2.0
+pillow==9.0.0
+requests==2.28.0
+urllib3==1.26.5
