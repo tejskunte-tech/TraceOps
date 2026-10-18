@@ -4,6 +4,12 @@ TraceOps Agent
 LLM-powered security investigation agent that uses the TraceOps MCP server.
 Uses Gemini 2.5 Flash-Lite with reliable manual tool calling.
 """
+import sys
+import io
+
+# Force UTF-8 output so Unicode characters (→ etc.) don't crash on Windows
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
 import asyncio
 import json
@@ -30,7 +36,7 @@ MODEL = "gemini-3.1-flash-lite"
 # MCP_SERVER_ARGS = ["traceops_mcp_server.py"]
 MCP_SERVER_COMMAND = sys.executable
 MCP_SERVER_ARGS = [str(Path(__file__).resolve().parent / "traceops_mcp_server.py")]
-MAX_TOOL_ROUNDS = 8
+MAX_TOOL_ROUNDS = 15
 
 # SYSTEM_PROMPT = """You are TraceOps, a graph-powered security investigation agent.
 
@@ -49,27 +55,49 @@ MAX_TOOL_ROUNDS = 8
 # When you have enough evidence, give a clear final report. Do not call more tools than needed.
 # """
 
+# SYSTEM_PROMPT = """You are TraceOps, a graph-powered security investigation agent.
+
+# Your job is to investigate software package vulnerabilities using the available tools.
+# You must:
+
+# 1. Use the graph tools to gather evidence (never invent findings).
+# 2. Prefer multi-hop reasoning when useful (call multi_hop_investigation).
+# 3. Clearly separate confirmed AFFECTED findings from UNKNOWN / conflicting ones.
+# 4. Prioritize findings using get_package_risk_summary or rank_packages_by_risk.
+# 5. Always explain which tool results support your conclusions.
+# 6. Recommend concrete remediation actions only when evidence supports them.
+# 7. If data is uncertain, say so explicitly.
+
+# Important style rules for the final answer:
+# - Focus on: which packages are risky, what confirmed vulnerabilities they have, and how to fix them.
+# - Give concrete upgrade commands when possible (e.g. pip install package>=version).
+# - Do NOT explain Degree Centrality, graph algorithms, or methodology unless the user specifically asks for it.
+# - Keep the answer practical and action-oriented.
+
+# Be concise, structured, and evidence-based.
+# When you have enough evidence, give a clear final report. Do not call more tools than needed.
+# """
+
 SYSTEM_PROMPT = """You are TraceOps, a graph-powered security investigation agent.
 
-Your job is to investigate software package vulnerabilities using the available tools.
-You must:
+Your goal is to investigate package vulnerabilities using the available tools and give a clear final report.
 
-1. Use the graph tools to gather evidence (never invent findings).
-2. Prefer multi-hop reasoning when useful (call multi_hop_investigation).
-3. Clearly separate confirmed AFFECTED findings from UNKNOWN / conflicting ones.
-4. Prioritize findings using get_package_risk_summary or rank_packages_by_risk.
-5. Always explain which tool results support your conclusions.
-6. Recommend concrete remediation actions only when evidence supports them.
-7. If data is uncertain, say so explicitly.
+Recommended investigation flow:
+1. Call rank_packages_by_risk()
+2. Call multi_hop_investigation() on the top 2 or 3 packages
+3. Call list_unknown_or_conflicting()
+4. Call recommend_remediation() on the top packages
 
-Important style rules for the final answer:
-- Focus on: which packages are risky, what confirmed vulnerabilities they have, and how to fix them.
-- Give concrete upgrade commands when possible (e.g. pip install package>=version).
-- Do NOT explain Degree Centrality, graph algorithms, or methodology unless the user specifically asks for it.
-- Keep the answer practical and action-oriented.
-
-Be concise, structured, and evidence-based.
-When you have enough evidence, give a clear final report. Do not call more tools than needed.
+Important rules:
+- After you have enough evidence, STOP calling tools and write the final report.
+- In the final report you MUST include:
+  - Ranking of packages
+  - Multi-hop evidence (show the actual path results from the tool)
+  - Remediation commands
+  - Any UNKNOWN findings
+  - In the Multi-Hop Evidence section you MUST paste the actual path data returned by the multi_hop_investigation tool (do not just summarize the count). Show at least 2-3 real paths per package in a readable format.
+- Never invent findings. Only use tool results.
+- Be structured and concise.
 """
 
 def mcp_tool_to_gemini(tool) -> types.FunctionDeclaration:
@@ -218,7 +246,7 @@ def main():
 
     try:
         result = asyncio.run(run_investigation(query))
-        print(result)
+        print(result.replace("→", "->").replace("←", "<-"))
     except Exception as e:
         print(f"Agent error: {e}")
         import traceback

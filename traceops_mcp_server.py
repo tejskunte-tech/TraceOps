@@ -1338,13 +1338,17 @@ def recommend_remediation(package_name: str) -> dict:
             valid = []
             for v in all_fixed:
                 try:
-                    valid.append(Version(v))
+                    ver = Version(str(v))
+                    # Skip pre-releases and unrealistic high major versions
+                    if ver.is_prerelease or ver.major > 20:
+                        continue
+                    valid.append(ver)
                 except InvalidVersion:
                     continue
             if valid:
                 recommended_version = str(sorted(valid)[-1])
         except Exception:
-            recommended_version = sorted(all_fixed)[-1]
+            recommended_version = sorted(all_fixed)[-1] if all_fixed else None
 
     if recommended_version:
         command = f"pip install {package_name}>={recommended_version}"
@@ -1371,7 +1375,6 @@ def recommend_remediation(package_name: str) -> dict:
         "message": message,
         "evidence_count": len(findings),
     }
-
 
 # ---------------------------------------------------------------------------
 # Entry point
