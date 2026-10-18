@@ -111,6 +111,12 @@ def fetch_vuln_details(vuln_id: str) -> dict[str, Any]:
     resp.raise_for_status()
     return resp.json()
 
+def clear_graph():
+    """Remove all existing nodes and relationships from the graph."""
+    client = FalkorDB(host=HOST, port=PORT)
+    graph = client.select_graph(GRAPH_NAME)
+    graph.query("MATCH (n) DETACH DELETE n")
+    print("Cleared existing graph data.")
 
 def upsert_to_graph(records: list[dict]) -> None:
     """Upsert packages, vulnerabilities and relationships into FalkorDB."""
@@ -226,7 +232,7 @@ def main():
     for item in batch:
         pkg = item["package"]
         vulns = item["vulns"]
-        print(f"  {pkg['name']}=={pkg['version']} → {len(vulns)} vulnerabilities")
+        print(f"  {pkg['name']}=={pkg['version']} -> {len(vulns)} vulnerabilities")
         for v in vulns:
             details = fetch_vuln_details(v["id"])
             if details:
@@ -236,12 +242,12 @@ def main():
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     out_file = RAW_DIR / "osv_from_requirements.json"
     out_file.write_text(json.dumps(records, indent=2), encoding="utf-8")
-    print(f"\nSaved raw data → {out_file}")
+    print(f"\nSaved raw data -> {out_file}")
 
     print("Loading into FalkorDB ...")
+    clear_graph()
     upsert_to_graph(records)
     print("Done.")
-
 
 if __name__ == "__main__":
     main()

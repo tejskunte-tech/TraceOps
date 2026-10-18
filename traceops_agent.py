@@ -25,10 +25,29 @@ load_dotenv(Path(__file__).resolve().parent / ".env")
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-MODEL = "gemini-2.5-flash"
-MCP_SERVER_COMMAND = "python"
-MCP_SERVER_ARGS = ["traceops_mcp_server.py"]
+MODEL = "gemini-3.1-flash-lite"
+# MCP_SERVER_COMMAND = "python"
+# MCP_SERVER_ARGS = ["traceops_mcp_server.py"]
+MCP_SERVER_COMMAND = sys.executable
+MCP_SERVER_ARGS = [str(Path(__file__).resolve().parent / "traceops_mcp_server.py")]
 MAX_TOOL_ROUNDS = 8
+
+# SYSTEM_PROMPT = """You are TraceOps, a graph-powered security investigation agent.
+
+# Your job is to investigate software package vulnerabilities using the available tools.
+# You must:
+
+# 1. Use the graph tools to gather evidence (never invent findings).
+# 2. Prefer multi-hop reasoning when useful (call multi_hop_investigation).
+# 3. Clearly separate confirmed AFFECTED findings from UNKNOWN / conflicting ones.
+# 4. Prioritize findings using get_package_risk_summary.
+# 5. Always explain which tool results and graph paths support your conclusions.
+# 6. Recommend concrete remediation actions only when evidence supports them.
+# 7. If data is uncertain, say so explicitly.
+
+# Be concise, structured, and evidence-based.
+# When you have enough evidence, give a clear final report. Do not call more tools than needed.
+# """
 
 SYSTEM_PROMPT = """You are TraceOps, a graph-powered security investigation agent.
 
@@ -38,15 +57,20 @@ You must:
 1. Use the graph tools to gather evidence (never invent findings).
 2. Prefer multi-hop reasoning when useful (call multi_hop_investigation).
 3. Clearly separate confirmed AFFECTED findings from UNKNOWN / conflicting ones.
-4. Prioritize findings using get_package_risk_summary.
-5. Always explain which tool results and graph paths support your conclusions.
+4. Prioritize findings using get_package_risk_summary or rank_packages_by_risk.
+5. Always explain which tool results support your conclusions.
 6. Recommend concrete remediation actions only when evidence supports them.
 7. If data is uncertain, say so explicitly.
+
+Important style rules for the final answer:
+- Focus on: which packages are risky, what confirmed vulnerabilities they have, and how to fix them.
+- Give concrete upgrade commands when possible (e.g. pip install package>=version).
+- Do NOT explain Degree Centrality, graph algorithms, or methodology unless the user specifically asks for it.
+- Keep the answer practical and action-oriented.
 
 Be concise, structured, and evidence-based.
 When you have enough evidence, give a clear final report. Do not call more tools than needed.
 """
-
 
 def mcp_tool_to_gemini(tool) -> types.FunctionDeclaration:
     """Convert an MCP tool definition into a Gemini FunctionDeclaration."""
@@ -145,7 +169,7 @@ async def run_investigation(user_query: str) -> str:
                 # Execute tools and feed results back
                 function_response_parts = []
                 for fc in function_calls:
-                    print(f"  → calling tool: {fc.name}({dict(fc.args)})")
+                    print(f"  -> calling tool: {fc.name}({dict(fc.args)})")
                     try:
                         result = await call_mcp_tool(session, fc.name, dict(fc.args))
                         result_str = json.dumps(result, indent=2, default=str)

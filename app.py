@@ -45,19 +45,24 @@ def run_agent_sync(query: str) -> str:
     This avoids asyncio TaskGroup / MCP session cleanup issues on repeated calls.
     """
     env = os.environ.copy()
+    # Ensure the agent can find the .env and the MCP server reliably
+    project_dir = Path(__file__).resolve().parent
+
     result = subprocess.run(
-        [sys.executable, "traceops_agent.py", query],
+        [sys.executable, str(project_dir / "traceops_agent.py"), query],
         capture_output=True,
         text=True,
-        cwd=Path(__file__).resolve().parent,
+        cwd=project_dir,
         env=env,
         timeout=180,
     )
-    output = result.stdout
-    if result.returncode != 0 and result.stderr:
-        output += "\n\n[stderr]\n" + result.stderr
-    return output
 
+    output = result.stdout or ""
+    if result.stderr:
+        output += "\n\n[stderr]\n" + result.stderr
+    if result.returncode != 0:
+        output += f"\n\n[returncode] {result.returncode}"
+    return output
 
 # ---------------------------------------------------------------------------
 # Sidebar
@@ -82,7 +87,18 @@ with st.sidebar:
                 with tempfile.NamedTemporaryFile(
                     mode="w", suffix=".txt", delete=False, encoding="utf-8"
                 ) as tmp:
-                    tmp.write(uploaded.getvalue().decode("utf-8"))
+                    raw_bytes = uploaded.getvalue()
+                    # Try common encodings (Windows pip freeze often produces UTF-16)
+                    for enc in ("utf-8", "utf-16", "utf-16-le", "cp1252", "latin-1"):
+                        try:
+                            content = raw_bytes.decode(enc)
+                            break
+                        except UnicodeDecodeError:
+                            continue
+                    else:
+                        content = raw_bytes.decode("utf-8", errors="replace")
+
+                    tmp.write(content)
                     tmp_path = tmp.name
 
                 st.write("Querying OSV for vulnerabilities...")
@@ -139,11 +155,11 @@ if "last_result" in st.session_state and st.session_state["last_result"]:
     lines = report.splitlines()
     cleaned = []
     for line in lines:
-        if line.startswith("=====") or line.startswith("Model :") or line.startswith("Time  :"):
-            continue
-        if line.startswith("Investigating..."):
-            continue
-        if line.strip() == "------------------------------------------------------------":
+        if (line.startswith("=====") or
+            line.startswith("Model :") or
+            line.startswith("Time  :") or
+            line.startswith("Investigating...") or
+            line.strip() == "------------------------------------------------------------"):
             continue
         cleaned.append(line)
     st.markdown("\n".join(cleaned).strip())
