@@ -1,0 +1,6 @@
+
+falkordb>=1.8.0
+mcp>=2.0.0
+packaging>=24.0
+google-genai>=1.0.0
+python-dotenv>=1.0.0

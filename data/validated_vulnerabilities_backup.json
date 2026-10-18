@@ -1,0 +1,1524 @@
+[
+  {
+    "package": "requests",
+    "ecosystem": "PyPI",
+    "installed_version": "2.28.0",
+    "advisory": "GHSA-9hjg-9r4m-mvj7",
+    "summary": "Requests vulnerable to .netrc credentials leak via malicious URLs",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-9hjg-9r4m-mvj7"
+  },
+  {
+    "package": "requests",
+    "ecosystem": "PyPI",
+    "installed_version": "2.28.0",
+    "advisory": "GHSA-9wx4-h78v-vm56",
+    "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-9wx4-h78v-vm56"
+  },
+  {
+    "package": "requests",
+    "ecosystem": "PyPI",
+    "installed_version": "2.28.0",
+    "advisory": "GHSA-gc5v-m9x4-r6x2",
+    "summary": "Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-gc5v-m9x4-r6x2"
+  },
+  {
+    "package": "requests",
+    "ecosystem": "PyPI",
+    "installed_version": "2.28.0",
+    "advisory": "GHSA-j8r2-6x86-q33q",
+    "summary": "Unintended leak of Proxy-Authorization header in requests",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-j8r2-6x86-q33q"
+  },
+  {
+    "package": "requests",
+    "ecosystem": "PyPI",
+    "installed_version": "2.28.0",
+    "advisory": "PYSEC-2023-74",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM",
+      "GIT"
+    ],
+    "unsupported_range_types": [
+      "GIT"
+    ],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-74"
+  },
+  {
+    "package": "requests",
+    "ecosystem": "PyPI",
+    "installed_version": "2.28.0",
+    "advisory": "PYSEC-2026-1872",
+    "summary": "Requests vulnerable to .netrc credentials leak via malicious URLs",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1872"
+  },
+  {
+    "package": "requests",
+    "ecosystem": "PyPI",
+    "installed_version": "2.28.0",
+    "advisory": "PYSEC-2026-1873",
+    "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1873"
+  },
+  {
+    "package": "requests",
+    "ecosystem": "PyPI",
+    "installed_version": "2.28.0",
+    "advisory": "PYSEC-2026-2275",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2275"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-2hrw-hx67-34x6",
+    "summary": "Resource exhaustion in Django",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-2hrw-hx67-34x6"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-3h9f-r86x-qvjx",
+    "summary": "Django: cache middleware may expose private responses when unrelated request cookies are present",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-3h9f-r86x-qvjx"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-6w2r-r2m5-xq5w",
+    "summary": "Django is subject to SQL injection through its column aliases",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-6w2r-r2m5-xq5w"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-7h4p-27mh-hmrw",
+    "summary": "Django Denial of service vulnerability in django.utils.encoding.uri_to_iri",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-7h4p-27mh-hmrw"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-7xr5-9hcq-chf9",
+    "summary": "Django Improper Output Neutralization for Logs vulnerability",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-7xr5-9hcq-chf9"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-8cjm-8mp7-r2xf",
+    "summary": "Django: UpdateCacheMiddleware may disclose cached responses due to case-sensitive Cache-Control handling",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-8cjm-8mp7-r2xf"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-8qcx-xf44-272x",
+    "summary": "Django: DomainNameValidator permits newline characters that may enable HTTP header injection",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-8qcx-xf44-272x"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-923m-gv2p-w5qp",
+    "summary": "Django: has_vary_header may expose cached responses when Vary values contain whitespace",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-923m-gv2p-w5qp"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-crhf-3pfg-w68w",
+    "summary": " Django: GDALRaster may over-read heap memory when constructed from bytes",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-crhf-3pfg-w68w"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-frmv-pr5f-9mcr",
+    "summary": "Django vulnerable to SQL injection via _connector keyword argument in QuerySet and Q objects.",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-frmv-pr5f-9mcr"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-h7pc-vwp9-298g",
+    "summary": "Django: signed cookies are vulnerable to salt namespace collisions",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-h7pc-vwp9-298g"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-h8gc-pgj2-vjm3",
+    "summary": "Django Denial-of-service in django.utils.text.Truncator",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-h8gc-pgj2-vjm3"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-jh3w-4vvf-mjgr",
+    "summary": "Django has regular expression denial of service vulnerability in EmailValidator/URLValidator",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-jh3w-4vvf-mjgr"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-q238-5cxm-5c9h",
+    "summary": "Django GeoDjango vulnerable to denial of service through deeply nested geometry collections",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-q238-5cxm-5c9h"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-q2jf-h9jm-m7p4",
+    "summary": "Django contains Uncontrolled Resource Consumption via cached header",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-q2jf-h9jm-m7p4"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-qmf9-6jqf-j8fq",
+    "summary": "Django potential denial of service vulnerability in UsernameField on Windows",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-qmf9-6jqf-j8fq"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-qrw5-5h28-6cmg",
+    "summary": "Django denial-of-service vulnerability in internationalized URLs",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-qrw5-5h28-6cmg"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-qw25-v68c-qjf3",
+    "summary": "Django has a denial-of-service vulnerability in HttpResponseRedirect and HttpResponsePermanentRedirect on Windows",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-qw25-v68c-qjf3"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-r3xc-prgr-mg9p",
+    "summary": "Django bypasses validation when using one form field to upload multiple files",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-r3xc-prgr-mg9p"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-rrqc-c2jx-6jgv",
+    "summary": "Django allows enumeration of user e-mail addresses",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-rrqc-c2jx-6jgv"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "GHSA-wvqv-fj8w-qmhm",
+    "summary": "Django GeoDjango spatial lookups allow file writes and outbound requests through GDAL raster parsing",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-wvqv-fj8w-qmhm"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2022-304",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM",
+      "GIT"
+    ],
+    "unsupported_range_types": [
+      "GIT"
+    ],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2022-304"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2023-100",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-100"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2023-12",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-12"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2023-13",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-13"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2023-222",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-222"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2023-225",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-225"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2023-226",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-226"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2023-61",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-61"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2026-1297",
+    "summary": "Django allows enumeration of user e-mail addresses",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1297"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2026-3717",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3717"
+  },
+  {
+    "package": "django",
+    "ecosystem": "PyPI",
+    "installed_version": "4.1.0",
+    "advisory": "PYSEC-2026-4035",
+    "summary": "Django GeoDjango spatial lookups allow file writes and outbound requests through GDAL raster parsing",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-4035"
+  },
+  {
+    "package": "flask",
+    "ecosystem": "PyPI",
+    "installed_version": "2.2.0",
+    "advisory": "GHSA-68rp-wp8r-4726",
+    "summary": "Flask session does not add `Vary: Cookie` header when accessed in some ways",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-68rp-wp8r-4726"
+  },
+  {
+    "package": "flask",
+    "ecosystem": "PyPI",
+    "installed_version": "2.2.0",
+    "advisory": "GHSA-m2qf-hxjv-5gpq",
+    "summary": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-m2qf-hxjv-5gpq"
+  },
+  {
+    "package": "flask",
+    "ecosystem": "PyPI",
+    "installed_version": "2.2.0",
+    "advisory": "PYSEC-2023-62",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM",
+      "GIT"
+    ],
+    "unsupported_range_types": [
+      "GIT"
+    ],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-62"
+  },
+  {
+    "package": "flask",
+    "ecosystem": "PyPI",
+    "installed_version": "2.2.0",
+    "advisory": "PYSEC-2026-2151",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2151"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "GHSA-2xpw-w6gg-jr37",
+    "summary": "urllib3 streaming API improperly handles highly compressed data",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-2xpw-w6gg-jr37"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "GHSA-34jh-p97f-mpxf",
+    "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-34jh-p97f-mpxf"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "GHSA-38jv-5279-wg99",
+    "summary": "Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-38jv-5279-wg99"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "GHSA-8988-9cw3-xx77",
+    "summary": "urllib3: HTTPS proxy TLS configuration may be ignored or overridden",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-8988-9cw3-xx77"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "GHSA-g4mx-q9vg-27p4",
+    "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-g4mx-q9vg-27p4"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "GHSA-gm62-xv2j-4w53",
+    "summary": "urllib3 allows an unbounded number of links in the decompression chain",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-gm62-xv2j-4w53"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "GHSA-pq67-6m6q-mj2v",
+    "summary": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-pq67-6m6q-mj2v"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "GHSA-qccp-gfcp-xxvc",
+    "summary": "urllib3: Sensitive headers forwarded across origins in proxied low-level redirects",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-qccp-gfcp-xxvc"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "GHSA-v845-jxx5-vc9f",
+    "summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-v845-jxx5-vc9f"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "GHSA-vxq7-64xx-v4gw",
+    "summary": "urllib3: HTTPResponse.stream()/read_chunked() buffers an unbounded chunk-size line into memory",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-vxq7-64xx-v4gw"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "PYSEC-2023-192",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM",
+      "GIT"
+    ],
+    "unsupported_range_types": [
+      "GIT"
+    ],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-192"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "PYSEC-2023-212",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM",
+      "GIT"
+    ],
+    "unsupported_range_types": [
+      "GIT"
+    ],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-212"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "PYSEC-2026-141",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-141"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "PYSEC-2026-1994",
+    "summary": "urllib3 streaming API improperly handles highly compressed data",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1994"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "PYSEC-2026-1995",
+    "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1995"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "PYSEC-2026-1996",
+    "summary": "Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1996"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "PYSEC-2026-1998",
+    "summary": "urllib3 allows an unbounded number of links in the decompression chain",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1998"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "PYSEC-2026-1999",
+    "summary": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1999"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "PYSEC-2026-4175",
+    "summary": "urllib3: HTTPS proxy TLS configuration may be ignored or overridden",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-4175"
+  },
+  {
+    "package": "urllib3",
+    "ecosystem": "PyPI",
+    "installed_version": "1.26.5",
+    "advisory": "PYSEC-2026-4177",
+    "summary": "urllib3: HTTPResponse.stream()/read_chunked() buffers an unbounded chunk-size line into memory",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-4177"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-3f63-hfp8-52jq",
+    "summary": "Arbitrary Code Execution in Pillow",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-3f63-hfp8-52jq"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-44wm-f244-xhp3",
+    "summary": "Pillow buffer overflow vulnerability",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-44wm-f244-xhp3"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-45hq-cxwh-f6vc",
+    "summary": "Pillow `BdfFontFile`: `Image.new()` called without `_decompression_bomb_check()` — bomb protection bypass via font loading",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-45hq-cxwh-f6vc"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-4x4j-2g7c-83w6",
+    "summary": "Pillow: WindowsViewer.get_command() OS command injection via unescaped shell path",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-4x4j-2g7c-83w6"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-5x94-69rx-g8h2",
+    "summary": "Pillow: `FontFile.compile()`: `Image.new()` called without `_decompression_bomb_check()`",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-5x94-69rx-g8h2"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-62p4-gmf7-7g93",
+    "summary": "Pillow: Out-of-bounds read via attacker-controlled row stride on Pillow's mmap path (McIdas AREA files)",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-62p4-gmf7-7g93"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-6r8x-57c9-28j4",
+    "summary": "Pillow: Heap out-of-bounds write `Image.paste()` / `Image.crop()` via signed coordinate overflow",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-6r8x-57c9-28j4"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-8ghj-p4vj-mr35",
+    "summary": "Pillow Denial of Service vulnerability",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-8ghj-p4vj-mr35"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-8v84-f9pq-wr9x",
+    "summary": "Pillow `PcfFontFile._load_bitmaps()`: `Image.frombytes()` called without `_decompression_bomb_check()` — bomb protection bypass via PCF font loading",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-8v84-f9pq-wr9x"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-8vj2-vxx3-667w",
+    "summary": "Arbitrary expression injection in Pillow",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-8vj2-vxx3-667w"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-9hw9-ch79-4vh6",
+    "summary": "Pillow: Controlled heap out-of-bounds write in Pillow `ImageCmsTransform.apply()` via output mode mismatch",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-9hw9-ch79-4vh6"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-9j59-75qj-795w",
+    "summary": "Path traversal in Pillow",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-9j59-75qj-795w"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-fj7v-r99m-22gq",
+    "summary": "Pillow TGA RLE encoder can serialize up to ~57 KB of adjacent heap data into generated images",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-fj7v-r99m-22gq"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-j7hp-h8jx-5ppr",
+    "summary": "libwebp: OOB write in BuildHuffmanTable",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-j7hp-h8jx-5ppr"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-jjj6-mw9f-p565",
+    "summary": "Pillow: Decompression Bomb DoS via PdfParser.PdfStream.decode()",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-jjj6-mw9f-p565"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-m2vv-5vj5-2hm7",
+    "summary": "Pillow vulnerable to Data Amplification attack.",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-m2vv-5vj5-2hm7"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-phj9-mv4w-65pm",
+    "summary": "Pillow `GdImageFile._open()`: image dimensions accepted without `_decompression_bomb_check()`",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-phj9-mv4w-65pm"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-r73j-pqj5-w3x7",
+    "summary": "Pillow has a PDF Parsing Trailer Infinite Loop (DoS)",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-r73j-pqj5-w3x7"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-vjc4-5qp5-m44j",
+    "summary": "Pillow JPEG2000 tiled decode retains a growing scratch buffer and can be used for denial of service",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-vjc4-5qp5-m44j"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-wjx4-4jcj-g98j",
+    "summary": "Pillow has an integer overflow when processing fonts",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-wjx4-4jcj-g98j"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "GHSA-xj96-63gp-2gmr",
+    "summary": "Pillow: Heap out-of-bounds write in `ImageFilter.RankFilter` via integer overflow in `ImagingExpand`",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/GHSA-xj96-63gp-2gmr"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2022-168",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2022-168"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2022-42979",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM",
+      "GIT"
+    ],
+    "unsupported_range_types": [
+      "GIT"
+    ],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2022-42979"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2022-42980",
+    "summary": "",
+    "version_status": "UNKNOWN",
+    "validation_reason": "Evaluated ecosystem ranges exclude the installed version, but unsupported range types prevent a confident conclusion.",
+    "range_types": [
+      "ECOSYSTEM",
+      "GIT"
+    ],
+    "unsupported_range_types": [
+      "GIT"
+    ],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2022-42980"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2023-175",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-175"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2023-227",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM",
+      "GIT"
+    ],
+    "unsupported_range_types": [
+      "GIT"
+    ],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2023-227"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-165",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-165"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-1793",
+    "summary": "Pillow buffer overflow vulnerability",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1793"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-1794",
+    "summary": "libwebp: OOB write in BuildHuffmanTable",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1794"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-2253",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2253"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-2254",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2254"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-2255",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2255"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-2256",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2256"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-2257",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2257"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-2874",
+    "summary": "Pillow has a PDF Parsing Trailer Infinite Loop (DoS)",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2874"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-3451",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3451"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-3453",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3453"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-3454",
+    "summary": "",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3454"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-3493",
+    "summary": "Pillow: Out-of-bounds read via attacker-controlled row stride on Pillow's mmap path (McIdas AREA files)",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3493"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-3494",
+    "summary": "Pillow TGA RLE encoder can serialize up to ~57 KB of adjacent heap data into generated images",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3494"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-3495",
+    "summary": "Pillow: Decompression Bomb DoS via PdfParser.PdfStream.decode()",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3495"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-3496",
+    "summary": "Pillow JPEG2000 tiled decode retains a growing scratch buffer and can be used for denial of service",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3496"
+  },
+  {
+    "package": "pillow",
+    "ecosystem": "PyPI",
+    "installed_version": "9.0.0",
+    "advisory": "PYSEC-2026-457",
+    "summary": "Arbitrary Code Execution in Pillow",
+    "version_status": "AFFECTED",
+    "validation_reason": "At least one evaluated ecosystem range confirms the installed version is affected.",
+    "range_types": [
+      "ECOSYSTEM"
+    ],
+    "unsupported_range_types": [],
+    "source_url": "https://osv.dev/vulnerability/PYSEC-2026-457"
+  }
+]

@@ -1,0 +1,1210 @@
+{
+  "source": "OSV.dev",
+  "retrieved_at": "2026-10-17T11:22:52.206504+00:00",
+  "packages_checked": [
+    {
+      "name": "requests",
+      "ecosystem": "PyPI",
+      "version": "2.28.0"
+    },
+    {
+      "name": "django",
+      "ecosystem": "PyPI",
+      "version": "4.1.0"
+    },
+    {
+      "name": "flask",
+      "ecosystem": "PyPI",
+      "version": "2.2.0"
+    },
+    {
+      "name": "urllib3",
+      "ecosystem": "PyPI",
+      "version": "1.26.5"
+    },
+    {
+      "name": "pillow",
+      "ecosystem": "PyPI",
+      "version": "9.0.0"
+    }
+  ],
+  "records": [
+    {
+      "package": {
+        "name": "requests",
+        "ecosystem": "PyPI",
+        "version": "2.28.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-9hjg-9r4m-mvj7",
+        "modified": "2026-09-10T03:50:25.139398Z"
+      }
+    },
+    {
+      "package": {
+        "name": "requests",
+        "ecosystem": "PyPI",
+        "version": "2.28.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-9wx4-h78v-vm56",
+        "modified": "2026-09-10T03:50:13.740879Z"
+      }
+    },
+    {
+      "package": {
+        "name": "requests",
+        "ecosystem": "PyPI",
+        "version": "2.28.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-gc5v-m9x4-r6x2",
+        "modified": "2026-09-10T03:50:39.207922Z"
+      }
+    },
+    {
+      "package": {
+        "name": "requests",
+        "ecosystem": "PyPI",
+        "version": "2.28.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-j8r2-6x86-q33q",
+        "modified": "2026-09-10T03:50:01.756149Z"
+      }
+    },
+    {
+      "package": {
+        "name": "requests",
+        "ecosystem": "PyPI",
+        "version": "2.28.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-74",
+        "modified": "2023-11-08T04:12:35.436175Z"
+      }
+    },
+    {
+      "package": {
+        "name": "requests",
+        "ecosystem": "PyPI",
+        "version": "2.28.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-1872",
+        "modified": "2026-07-07T17:47:00.332079Z"
+      }
+    },
+    {
+      "package": {
+        "name": "requests",
+        "ecosystem": "PyPI",
+        "version": "2.28.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-1873",
+        "modified": "2026-07-07T17:46:36.762141Z"
+      }
+    },
+    {
+      "package": {
+        "name": "requests",
+        "ecosystem": "PyPI",
+        "version": "2.28.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-2275",
+        "modified": "2026-07-13T07:15:43.964902Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-2hrw-hx67-34x6",
+        "modified": "2025-03-19T15:45:19.599334Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-3h9f-r86x-qvjx",
+        "modified": "2026-09-10T03:51:10.140141Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-6w2r-r2m5-xq5w",
+        "modified": "2026-09-10T03:50:27.987884Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-7h4p-27mh-hmrw",
+        "modified": "2025-11-04T21:28:04.529768Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-7xr5-9hcq-chf9",
+        "modified": "2026-09-10T03:50:25.160016Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-8cjm-8mp7-r2xf",
+        "modified": "2026-09-10T03:50:48.806230Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-8qcx-xf44-272x",
+        "modified": "2026-09-10T03:51:11.070082Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-923m-gv2p-w5qp",
+        "modified": "2026-09-10T03:50:48.942703Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-crhf-3pfg-w68w",
+        "modified": "2026-09-10T03:51:11.475072Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-frmv-pr5f-9mcr",
+        "modified": "2026-06-05T14:45:52.053173Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-h7pc-vwp9-298g",
+        "modified": "2026-09-10T03:50:49.784603Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-h8gc-pgj2-vjm3",
+        "modified": "2025-11-04T20:42:38.556437Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-jh3w-4vvf-mjgr",
+        "modified": "2025-11-04T19:59:10.496692Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-q238-5cxm-5c9h",
+        "modified": "2026-10-12T14:45:06.559694Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-q2jf-h9jm-m7p4",
+        "modified": "2024-09-20T15:47:43.845538Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-qmf9-6jqf-j8fq",
+        "modified": "2024-09-20T16:07:45.381236Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-qrw5-5h28-6cmg",
+        "modified": "2024-09-20T15:48:03.376641Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-qw25-v68c-qjf3",
+        "modified": "2026-09-10T03:50:58.508072Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-r3xc-prgr-mg9p",
+        "modified": "2025-02-21T05:31:37.748535Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-rrqc-c2jx-6jgv",
+        "modified": "2026-07-07T17:57:34.018251Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-wvqv-fj8w-qmhm",
+        "modified": "2026-10-01T17:56:17.845009Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2022-304",
+        "modified": "2026-06-10T17:01:02.167352Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-100",
+        "modified": "2026-06-10T17:01:02.152157Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-12",
+        "modified": "2026-06-10T17:01:02.189898Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-13",
+        "modified": "2026-06-10T17:01:02.618509Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-222",
+        "modified": "2026-06-10T17:01:02.672946Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-225",
+        "modified": "2026-06-10T17:01:02.864153Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-226",
+        "modified": "2026-06-10T17:01:03.986909Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-61",
+        "modified": "2026-06-10T17:00:52.468237Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-1297",
+        "modified": "2026-07-07T17:57:34.018251Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-3717",
+        "modified": "2026-10-01T17:15:02.507678Z"
+      }
+    },
+    {
+      "package": {
+        "name": "django",
+        "ecosystem": "PyPI",
+        "version": "4.1.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-4035",
+        "modified": "2026-10-01T17:56:17.845009Z"
+      }
+    },
+    {
+      "package": {
+        "name": "flask",
+        "ecosystem": "PyPI",
+        "version": "2.2.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-68rp-wp8r-4726",
+        "modified": "2026-09-10T03:49:54.354981Z"
+      }
+    },
+    {
+      "package": {
+        "name": "flask",
+        "ecosystem": "PyPI",
+        "version": "2.2.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-m2qf-hxjv-5gpq",
+        "modified": "2026-09-10T03:50:01.763387Z"
+      }
+    },
+    {
+      "package": {
+        "name": "flask",
+        "ecosystem": "PyPI",
+        "version": "2.2.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-62",
+        "modified": "2023-11-08T04:12:28.231927Z"
+      }
+    },
+    {
+      "package": {
+        "name": "flask",
+        "ecosystem": "PyPI",
+        "version": "2.2.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-2151",
+        "modified": "2026-07-13T07:15:25.033843Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "GHSA-2xpw-w6gg-jr37",
+        "modified": "2026-09-25T17:15:05.968189Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "GHSA-34jh-p97f-mpxf",
+        "modified": "2026-09-10T03:50:14.811193Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "GHSA-38jv-5279-wg99",
+        "modified": "2026-09-10T03:50:32.562010Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "GHSA-8988-9cw3-xx77",
+        "modified": "2026-10-01T17:55:53.793608Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "GHSA-g4mx-q9vg-27p4",
+        "modified": "2026-09-10T03:50:03.706889Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "GHSA-gm62-xv2j-4w53",
+        "modified": "2026-09-10T03:50:58.741847Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "GHSA-pq67-6m6q-mj2v",
+        "modified": "2026-09-10T03:50:25.299291Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "GHSA-qccp-gfcp-xxvc",
+        "modified": "2026-09-10T03:50:47.272765Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "GHSA-v845-jxx5-vc9f",
+        "modified": "2026-09-10T03:49:24.753610Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "GHSA-vxq7-64xx-v4gw",
+        "modified": "2026-10-01T17:55:57.514829Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-192",
+        "modified": "2023-11-08T04:13:33.452167Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-212",
+        "modified": "2023-11-08T04:13:39.165450Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-141",
+        "modified": "2026-05-20T09:19:20.983812Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-1994",
+        "modified": "2026-07-07T17:48:15.379954Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-1995",
+        "modified": "2026-07-07T17:48:15.400192Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-1996",
+        "modified": "2026-07-07T17:48:15.382053Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-1998",
+        "modified": "2026-07-07T17:47:54.140852Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-1999",
+        "modified": "2026-07-07T17:47:54.161376Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-4175",
+        "modified": "2026-10-01T17:45:18.542387Z"
+      }
+    },
+    {
+      "package": {
+        "name": "urllib3",
+        "ecosystem": "PyPI",
+        "version": "1.26.5"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-4177",
+        "modified": "2026-10-01T17:45:18.336090Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-3f63-hfp8-52jq",
+        "modified": "2026-09-10T03:50:04.766695Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-44wm-f244-xhp3",
+        "modified": "2026-09-10T03:50:11.139712Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-45hq-cxwh-f6vc",
+        "modified": "2026-09-10T03:50:51.372929Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-4x4j-2g7c-83w6",
+        "modified": "2026-09-10T03:51:10.324377Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-5x94-69rx-g8h2",
+        "modified": "2026-09-10T03:51:10.514604Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-62p4-gmf7-7g93",
+        "modified": "2026-09-10T03:51:10.632149Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-6r8x-57c9-28j4",
+        "modified": "2026-09-10T03:51:10.822199Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-8ghj-p4vj-mr35",
+        "modified": "2024-10-14T21:23:45.339098Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-8v84-f9pq-wr9x",
+        "modified": "2026-09-10T03:51:11.229114Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-8vj2-vxx3-667w",
+        "modified": "2024-10-14T18:26:08.636369Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-9hw9-ch79-4vh6",
+        "modified": "2026-09-10T03:51:11.334365Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-9j59-75qj-795w",
+        "modified": "2024-10-14T18:43:28.549080Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-fj7v-r99m-22gq",
+        "modified": "2026-09-10T03:50:51.891240Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-j7hp-h8jx-5ppr",
+        "modified": "2026-09-10T03:50:01.877717Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-jjj6-mw9f-p565",
+        "modified": "2026-09-10T03:50:12.341825Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-m2vv-5vj5-2hm7",
+        "modified": "2024-10-14T18:39:06.000592Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-phj9-mv4w-65pm",
+        "modified": "2026-09-10T03:51:11.734605Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-r73j-pqj5-w3x7",
+        "modified": "2026-09-10T03:50:55.309086Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-vjc4-5qp5-m44j",
+        "modified": "2026-09-10T03:50:53.107920Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-wjx4-4jcj-g98j",
+        "modified": "2026-09-10T03:50:47.950262Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "GHSA-xj96-63gp-2gmr",
+        "modified": "2026-09-10T03:50:53.192759Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2022-168",
+        "modified": "2023-12-06T01:02:03.848876Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2022-42979",
+        "modified": "2026-06-10T17:02:31.598361Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2022-42980",
+        "modified": "2026-06-10T17:02:31.598026Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-175",
+        "modified": "2026-02-04T03:22:30.928037Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2023-227",
+        "modified": "2026-06-10T17:02:31.597832Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-165",
+        "modified": "2026-05-27T13:56:18.230226Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-1793",
+        "modified": "2026-07-07T17:57:00.234584Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-1794",
+        "modified": "2026-07-07T17:56:20.858779Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-2253",
+        "modified": "2026-07-13T07:26:49.281845Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-2254",
+        "modified": "2026-07-13T07:26:56.196935Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-2255",
+        "modified": "2026-07-13T07:26:26.726353Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-2256",
+        "modified": "2026-07-13T07:26:17.085341Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-2257",
+        "modified": "2026-07-13T07:26:48.229039Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-2874",
+        "modified": "2026-07-13T16:42:37.358429Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-3451",
+        "modified": "2026-07-15T20:11:36.266805Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-3453",
+        "modified": "2026-07-15T20:11:15.582336Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-3454",
+        "modified": "2026-07-22T11:11:36.231472Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-3493",
+        "modified": "2026-07-23T15:11:42.568996Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-3494",
+        "modified": "2026-07-23T15:11:28.382441Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-3495",
+        "modified": "2026-07-23T15:11:28.034031Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-3496",
+        "modified": "2026-07-23T15:11:20.720915Z"
+      }
+    },
+    {
+      "package": {
+        "name": "pillow",
+        "ecosystem": "PyPI",
+        "version": "9.0.0"
+      },
+      "vulnerability": {
+        "id": "PYSEC-2026-457",
+        "modified": "2026-07-01T20:23:00.296282Z"
+      }
+    }
+  ]
+}

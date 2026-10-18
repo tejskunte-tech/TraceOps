@@ -1,0 +1,694 @@
+[
+  {
+    "package": {
+      "name": "requests",
+      "ecosystem": "PyPI",
+      "version": "2.28.0"
+    },
+    "matching_advisory_count": 8,
+    "advisories": [
+      {
+        "id": "GHSA-9hjg-9r4m-mvj7",
+        "summary": "Requests vulnerable to .netrc credentials leak via malicious URLs",
+        "modified": "2026-09-10T03:50:25.139398550Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-9hjg-9r4m-mvj7"
+      },
+      {
+        "id": "GHSA-9wx4-h78v-vm56",
+        "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
+        "modified": "2026-09-10T03:50:13.740879755Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-9wx4-h78v-vm56"
+      },
+      {
+        "id": "GHSA-gc5v-m9x4-r6x2",
+        "summary": "Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function",
+        "modified": "2026-09-10T03:50:39.207922076Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-gc5v-m9x4-r6x2"
+      },
+      {
+        "id": "GHSA-j8r2-6x86-q33q",
+        "summary": "Unintended leak of Proxy-Authorization header in requests",
+        "modified": "2026-09-10T03:50:01.756149727Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-j8r2-6x86-q33q"
+      },
+      {
+        "id": "PYSEC-2023-74",
+        "summary": "",
+        "modified": "2023-11-08T04:12:35.436175Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-74"
+      },
+      {
+        "id": "PYSEC-2026-1872",
+        "summary": "Requests vulnerable to .netrc credentials leak via malicious URLs",
+        "modified": "2026-07-07T17:47:00.332079836Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1872"
+      },
+      {
+        "id": "PYSEC-2026-1873",
+        "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
+        "modified": "2026-07-07T17:46:36.762141019Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1873"
+      },
+      {
+        "id": "PYSEC-2026-2275",
+        "summary": "",
+        "modified": "2026-07-13T07:15:43.964902190Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2275"
+      }
+    ]
+  },
+  {
+    "package": {
+      "name": "django",
+      "ecosystem": "PyPI",
+      "version": "4.1.0"
+    },
+    "matching_advisory_count": 32,
+    "advisories": [
+      {
+        "id": "GHSA-2hrw-hx67-34x6",
+        "summary": "Resource exhaustion in Django",
+        "modified": "2025-03-19T15:45:19.599334Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-2hrw-hx67-34x6"
+      },
+      {
+        "id": "GHSA-3h9f-r86x-qvjx",
+        "summary": "Django: cache middleware may expose private responses when unrelated request cookies are present",
+        "modified": "2026-09-10T03:51:10.140141450Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-3h9f-r86x-qvjx"
+      },
+      {
+        "id": "GHSA-6w2r-r2m5-xq5w",
+        "summary": "Django is subject to SQL injection through its column aliases",
+        "modified": "2026-09-10T03:50:27.987884944Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-6w2r-r2m5-xq5w"
+      },
+      {
+        "id": "GHSA-7h4p-27mh-hmrw",
+        "summary": "Django Denial of service vulnerability in django.utils.encoding.uri_to_iri",
+        "modified": "2025-11-04T21:28:04.529768Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-7h4p-27mh-hmrw"
+      },
+      {
+        "id": "GHSA-7xr5-9hcq-chf9",
+        "summary": "Django Improper Output Neutralization for Logs vulnerability",
+        "modified": "2026-09-10T03:50:25.160016024Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-7xr5-9hcq-chf9"
+      },
+      {
+        "id": "GHSA-8cjm-8mp7-r2xf",
+        "summary": "Django: UpdateCacheMiddleware may disclose cached responses due to case-sensitive Cache-Control handling",
+        "modified": "2026-09-10T03:50:48.806230224Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-8cjm-8mp7-r2xf"
+      },
+      {
+        "id": "GHSA-8qcx-xf44-272x",
+        "summary": "Django: DomainNameValidator permits newline characters that may enable HTTP header injection",
+        "modified": "2026-09-10T03:51:11.070082151Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-8qcx-xf44-272x"
+      },
+      {
+        "id": "GHSA-923m-gv2p-w5qp",
+        "summary": "Django: has_vary_header may expose cached responses when Vary values contain whitespace",
+        "modified": "2026-09-10T03:50:48.942703912Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-923m-gv2p-w5qp"
+      },
+      {
+        "id": "GHSA-crhf-3pfg-w68w",
+        "summary": " Django: GDALRaster may over-read heap memory when constructed from bytes",
+        "modified": "2026-09-10T03:51:11.475072075Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-crhf-3pfg-w68w"
+      },
+      {
+        "id": "GHSA-frmv-pr5f-9mcr",
+        "summary": "Django vulnerable to SQL injection via _connector keyword argument in QuerySet and Q objects.",
+        "modified": "2026-06-05T14:45:52.053173828Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-frmv-pr5f-9mcr"
+      },
+      {
+        "id": "GHSA-h7pc-vwp9-298g",
+        "summary": "Django: signed cookies are vulnerable to salt namespace collisions",
+        "modified": "2026-09-10T03:50:49.784603324Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-h7pc-vwp9-298g"
+      },
+      {
+        "id": "GHSA-h8gc-pgj2-vjm3",
+        "summary": "Django Denial-of-service in django.utils.text.Truncator",
+        "modified": "2025-11-04T20:42:38.556437Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-h8gc-pgj2-vjm3"
+      },
+      {
+        "id": "GHSA-jh3w-4vvf-mjgr",
+        "summary": "Django has regular expression denial of service vulnerability in EmailValidator/URLValidator",
+        "modified": "2025-11-04T19:59:10.496692Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-jh3w-4vvf-mjgr"
+      },
+      {
+        "id": "GHSA-q238-5cxm-5c9h",
+        "summary": "Django GeoDjango vulnerable to denial of service through deeply nested geometry collections",
+        "modified": "2026-10-12T14:45:06.559694358Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-q238-5cxm-5c9h"
+      },
+      {
+        "id": "GHSA-q2jf-h9jm-m7p4",
+        "summary": "Django contains Uncontrolled Resource Consumption via cached header",
+        "modified": "2024-09-20T15:47:43.845538Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-q2jf-h9jm-m7p4"
+      },
+      {
+        "id": "GHSA-qmf9-6jqf-j8fq",
+        "summary": "Django potential denial of service vulnerability in UsernameField on Windows",
+        "modified": "2024-09-20T16:07:45.381236Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-qmf9-6jqf-j8fq"
+      },
+      {
+        "id": "GHSA-qrw5-5h28-6cmg",
+        "summary": "Django denial-of-service vulnerability in internationalized URLs",
+        "modified": "2024-09-20T15:48:03.376641Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-qrw5-5h28-6cmg"
+      },
+      {
+        "id": "GHSA-qw25-v68c-qjf3",
+        "summary": "Django has a denial-of-service vulnerability in HttpResponseRedirect and HttpResponsePermanentRedirect on Windows",
+        "modified": "2026-09-10T03:50:58.508072395Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-qw25-v68c-qjf3"
+      },
+      {
+        "id": "GHSA-r3xc-prgr-mg9p",
+        "summary": "Django bypasses validation when using one form field to upload multiple files",
+        "modified": "2025-02-21T05:31:37.748535Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-r3xc-prgr-mg9p"
+      },
+      {
+        "id": "GHSA-rrqc-c2jx-6jgv",
+        "summary": "Django allows enumeration of user e-mail addresses",
+        "modified": "2026-07-07T17:57:34.018251439Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-rrqc-c2jx-6jgv"
+      },
+      {
+        "id": "GHSA-wvqv-fj8w-qmhm",
+        "summary": "Django GeoDjango spatial lookups allow file writes and outbound requests through GDAL raster parsing",
+        "modified": "2026-10-01T17:56:17.845009416Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-wvqv-fj8w-qmhm"
+      },
+      {
+        "id": "PYSEC-2022-304",
+        "summary": "",
+        "modified": "2026-06-10T17:01:02.167352048Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2022-304"
+      },
+      {
+        "id": "PYSEC-2023-100",
+        "summary": "",
+        "modified": "2026-06-10T17:01:02.152157540Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-100"
+      },
+      {
+        "id": "PYSEC-2023-12",
+        "summary": "",
+        "modified": "2026-06-10T17:01:02.189898268Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-12"
+      },
+      {
+        "id": "PYSEC-2023-13",
+        "summary": "",
+        "modified": "2026-06-10T17:01:02.618509676Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-13"
+      },
+      {
+        "id": "PYSEC-2023-222",
+        "summary": "",
+        "modified": "2026-06-10T17:01:02.672946253Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-222"
+      },
+      {
+        "id": "PYSEC-2023-225",
+        "summary": "",
+        "modified": "2026-06-10T17:01:02.864153219Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-225"
+      },
+      {
+        "id": "PYSEC-2023-226",
+        "summary": "",
+        "modified": "2026-06-10T17:01:03.986909758Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-226"
+      },
+      {
+        "id": "PYSEC-2023-61",
+        "summary": "",
+        "modified": "2026-06-10T17:00:52.468237476Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-61"
+      },
+      {
+        "id": "PYSEC-2026-1297",
+        "summary": "Django allows enumeration of user e-mail addresses",
+        "modified": "2026-07-07T17:57:34.018251439Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1297"
+      },
+      {
+        "id": "PYSEC-2026-3717",
+        "summary": "",
+        "modified": "2026-10-01T17:15:02.507678321Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3717"
+      },
+      {
+        "id": "PYSEC-2026-4035",
+        "summary": "Django GeoDjango spatial lookups allow file writes and outbound requests through GDAL raster parsing",
+        "modified": "2026-10-01T17:56:17.845009416Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-4035"
+      }
+    ]
+  },
+  {
+    "package": {
+      "name": "flask",
+      "ecosystem": "PyPI",
+      "version": "2.2.0"
+    },
+    "matching_advisory_count": 4,
+    "advisories": [
+      {
+        "id": "GHSA-68rp-wp8r-4726",
+        "summary": "Flask session does not add `Vary: Cookie` header when accessed in some ways",
+        "modified": "2026-09-10T03:49:54.354981590Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-68rp-wp8r-4726"
+      },
+      {
+        "id": "GHSA-m2qf-hxjv-5gpq",
+        "summary": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
+        "modified": "2026-09-10T03:50:01.763387498Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-m2qf-hxjv-5gpq"
+      },
+      {
+        "id": "PYSEC-2023-62",
+        "summary": "",
+        "modified": "2023-11-08T04:12:28.231927Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-62"
+      },
+      {
+        "id": "PYSEC-2026-2151",
+        "summary": "",
+        "modified": "2026-07-13T07:15:25.033843440Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2151"
+      }
+    ]
+  },
+  {
+    "package": {
+      "name": "urllib3",
+      "ecosystem": "PyPI",
+      "version": "1.26.5"
+    },
+    "matching_advisory_count": 20,
+    "advisories": [
+      {
+        "id": "GHSA-2xpw-w6gg-jr37",
+        "summary": "urllib3 streaming API improperly handles highly compressed data",
+        "modified": "2026-09-25T17:15:05.968189421Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-2xpw-w6gg-jr37"
+      },
+      {
+        "id": "GHSA-34jh-p97f-mpxf",
+        "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects",
+        "modified": "2026-09-10T03:50:14.811193644Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-34jh-p97f-mpxf"
+      },
+      {
+        "id": "GHSA-38jv-5279-wg99",
+        "summary": "Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)",
+        "modified": "2026-09-10T03:50:32.562010895Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-38jv-5279-wg99"
+      },
+      {
+        "id": "GHSA-8988-9cw3-xx77",
+        "summary": "urllib3: HTTPS proxy TLS configuration may be ignored or overridden",
+        "modified": "2026-10-01T17:55:53.793608550Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-8988-9cw3-xx77"
+      },
+      {
+        "id": "GHSA-g4mx-q9vg-27p4",
+        "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+        "modified": "2026-09-10T03:50:03.706889410Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-g4mx-q9vg-27p4"
+      },
+      {
+        "id": "GHSA-gm62-xv2j-4w53",
+        "summary": "urllib3 allows an unbounded number of links in the decompression chain",
+        "modified": "2026-09-10T03:50:58.741847479Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-gm62-xv2j-4w53"
+      },
+      {
+        "id": "GHSA-pq67-6m6q-mj2v",
+        "summary": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+        "modified": "2026-09-10T03:50:25.299291456Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-pq67-6m6q-mj2v"
+      },
+      {
+        "id": "GHSA-qccp-gfcp-xxvc",
+        "summary": "urllib3: Sensitive headers forwarded across origins in proxied low-level redirects",
+        "modified": "2026-09-10T03:50:47.272765640Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-qccp-gfcp-xxvc"
+      },
+      {
+        "id": "GHSA-v845-jxx5-vc9f",
+        "summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+        "modified": "2026-09-10T03:49:24.753610811Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-v845-jxx5-vc9f"
+      },
+      {
+        "id": "GHSA-vxq7-64xx-v4gw",
+        "summary": "urllib3: HTTPResponse.stream()/read_chunked() buffers an unbounded chunk-size line into memory",
+        "modified": "2026-10-01T17:55:57.514829071Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-vxq7-64xx-v4gw"
+      },
+      {
+        "id": "PYSEC-2023-192",
+        "summary": "",
+        "modified": "2023-11-08T04:13:33.452167Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-192"
+      },
+      {
+        "id": "PYSEC-2023-212",
+        "summary": "",
+        "modified": "2023-11-08T04:13:39.165450Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-212"
+      },
+      {
+        "id": "PYSEC-2026-141",
+        "summary": "",
+        "modified": "2026-05-20T09:19:20.983812Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-141"
+      },
+      {
+        "id": "PYSEC-2026-1994",
+        "summary": "urllib3 streaming API improperly handles highly compressed data",
+        "modified": "2026-07-07T17:48:15.379954669Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1994"
+      },
+      {
+        "id": "PYSEC-2026-1995",
+        "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects",
+        "modified": "2026-07-07T17:48:15.400192088Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1995"
+      },
+      {
+        "id": "PYSEC-2026-1996",
+        "summary": "Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)",
+        "modified": "2026-07-07T17:48:15.382053236Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1996"
+      },
+      {
+        "id": "PYSEC-2026-1998",
+        "summary": "urllib3 allows an unbounded number of links in the decompression chain",
+        "modified": "2026-07-07T17:47:54.140852492Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1998"
+      },
+      {
+        "id": "PYSEC-2026-1999",
+        "summary": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+        "modified": "2026-07-07T17:47:54.161376347Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1999"
+      },
+      {
+        "id": "PYSEC-2026-4175",
+        "summary": "urllib3: HTTPS proxy TLS configuration may be ignored or overridden",
+        "modified": "2026-10-01T17:45:18.542387510Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-4175"
+      },
+      {
+        "id": "PYSEC-2026-4177",
+        "summary": "urllib3: HTTPResponse.stream()/read_chunked() buffers an unbounded chunk-size line into memory",
+        "modified": "2026-10-01T17:45:18.336090182Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-4177"
+      }
+    ]
+  },
+  {
+    "package": {
+      "name": "pillow",
+      "ecosystem": "PyPI",
+      "version": "9.0.0"
+    },
+    "matching_advisory_count": 43,
+    "advisories": [
+      {
+        "id": "GHSA-3f63-hfp8-52jq",
+        "summary": "Arbitrary Code Execution in Pillow",
+        "modified": "2026-09-10T03:50:04.766695102Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-3f63-hfp8-52jq"
+      },
+      {
+        "id": "GHSA-44wm-f244-xhp3",
+        "summary": "Pillow buffer overflow vulnerability",
+        "modified": "2026-09-10T03:50:11.139712157Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-44wm-f244-xhp3"
+      },
+      {
+        "id": "GHSA-45hq-cxwh-f6vc",
+        "summary": "Pillow `BdfFontFile`: `Image.new()` called without `_decompression_bomb_check()` — bomb protection bypass via font loading",
+        "modified": "2026-09-10T03:50:51.372929814Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-45hq-cxwh-f6vc"
+      },
+      {
+        "id": "GHSA-4x4j-2g7c-83w6",
+        "summary": "Pillow: WindowsViewer.get_command() OS command injection via unescaped shell path",
+        "modified": "2026-09-10T03:51:10.324377232Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-4x4j-2g7c-83w6"
+      },
+      {
+        "id": "GHSA-5x94-69rx-g8h2",
+        "summary": "Pillow: `FontFile.compile()`: `Image.new()` called without `_decompression_bomb_check()`",
+        "modified": "2026-09-10T03:51:10.514604451Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-5x94-69rx-g8h2"
+      },
+      {
+        "id": "GHSA-62p4-gmf7-7g93",
+        "summary": "Pillow: Out-of-bounds read via attacker-controlled row stride on Pillow's mmap path (McIdas AREA files)",
+        "modified": "2026-09-10T03:51:10.632149522Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-62p4-gmf7-7g93"
+      },
+      {
+        "id": "GHSA-6r8x-57c9-28j4",
+        "summary": "Pillow: Heap out-of-bounds write `Image.paste()` / `Image.crop()` via signed coordinate overflow",
+        "modified": "2026-09-10T03:51:10.822199342Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-6r8x-57c9-28j4"
+      },
+      {
+        "id": "GHSA-8ghj-p4vj-mr35",
+        "summary": "Pillow Denial of Service vulnerability",
+        "modified": "2024-10-14T21:23:45.339098Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-8ghj-p4vj-mr35"
+      },
+      {
+        "id": "GHSA-8v84-f9pq-wr9x",
+        "summary": "Pillow `PcfFontFile._load_bitmaps()`: `Image.frombytes()` called without `_decompression_bomb_check()` — bomb protection bypass via PCF font loading",
+        "modified": "2026-09-10T03:51:11.229114807Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-8v84-f9pq-wr9x"
+      },
+      {
+        "id": "GHSA-8vj2-vxx3-667w",
+        "summary": "Arbitrary expression injection in Pillow",
+        "modified": "2024-10-14T18:26:08.636369Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-8vj2-vxx3-667w"
+      },
+      {
+        "id": "GHSA-9hw9-ch79-4vh6",
+        "summary": "Pillow: Controlled heap out-of-bounds write in Pillow `ImageCmsTransform.apply()` via output mode mismatch",
+        "modified": "2026-09-10T03:51:11.334365483Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-9hw9-ch79-4vh6"
+      },
+      {
+        "id": "GHSA-9j59-75qj-795w",
+        "summary": "Path traversal in Pillow",
+        "modified": "2024-10-14T18:43:28.549080Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-9j59-75qj-795w"
+      },
+      {
+        "id": "GHSA-fj7v-r99m-22gq",
+        "summary": "Pillow TGA RLE encoder can serialize up to ~57 KB of adjacent heap data into generated images",
+        "modified": "2026-09-10T03:50:51.891240357Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-fj7v-r99m-22gq"
+      },
+      {
+        "id": "GHSA-j7hp-h8jx-5ppr",
+        "summary": "libwebp: OOB write in BuildHuffmanTable",
+        "modified": "2026-09-10T03:50:01.877717636Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-j7hp-h8jx-5ppr"
+      },
+      {
+        "id": "GHSA-jjj6-mw9f-p565",
+        "summary": "Pillow: Decompression Bomb DoS via PdfParser.PdfStream.decode()",
+        "modified": "2026-09-10T03:50:12.341825852Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-jjj6-mw9f-p565"
+      },
+      {
+        "id": "GHSA-m2vv-5vj5-2hm7",
+        "summary": "Pillow vulnerable to Data Amplification attack.",
+        "modified": "2024-10-14T18:39:06.000592Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-m2vv-5vj5-2hm7"
+      },
+      {
+        "id": "GHSA-phj9-mv4w-65pm",
+        "summary": "Pillow `GdImageFile._open()`: image dimensions accepted without `_decompression_bomb_check()`",
+        "modified": "2026-09-10T03:51:11.734605509Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-phj9-mv4w-65pm"
+      },
+      {
+        "id": "GHSA-r73j-pqj5-w3x7",
+        "summary": "Pillow has a PDF Parsing Trailer Infinite Loop (DoS)",
+        "modified": "2026-09-10T03:50:55.309086884Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-r73j-pqj5-w3x7"
+      },
+      {
+        "id": "GHSA-vjc4-5qp5-m44j",
+        "summary": "Pillow JPEG2000 tiled decode retains a growing scratch buffer and can be used for denial of service",
+        "modified": "2026-09-10T03:50:53.107920034Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-vjc4-5qp5-m44j"
+      },
+      {
+        "id": "GHSA-wjx4-4jcj-g98j",
+        "summary": "Pillow has an integer overflow when processing fonts",
+        "modified": "2026-09-10T03:50:47.950262681Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-wjx4-4jcj-g98j"
+      },
+      {
+        "id": "GHSA-xj96-63gp-2gmr",
+        "summary": "Pillow: Heap out-of-bounds write in `ImageFilter.RankFilter` via integer overflow in `ImagingExpand`",
+        "modified": "2026-09-10T03:50:53.192759645Z",
+        "source_url": "https://osv.dev/vulnerability/GHSA-xj96-63gp-2gmr"
+      },
+      {
+        "id": "PYSEC-2022-168",
+        "summary": "",
+        "modified": "2023-12-06T01:02:03.848876Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2022-168"
+      },
+      {
+        "id": "PYSEC-2022-42979",
+        "summary": "",
+        "modified": "2026-06-10T17:02:31.598361984Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2022-42979"
+      },
+      {
+        "id": "PYSEC-2022-42980",
+        "summary": "",
+        "modified": "2026-06-10T17:02:31.598026305Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2022-42980"
+      },
+      {
+        "id": "PYSEC-2023-175",
+        "summary": "",
+        "modified": "2026-02-04T03:22:30.928037Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-175"
+      },
+      {
+        "id": "PYSEC-2023-227",
+        "summary": "",
+        "modified": "2026-06-10T17:02:31.597832523Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2023-227"
+      },
+      {
+        "id": "PYSEC-2026-165",
+        "summary": "",
+        "modified": "2026-05-27T13:56:18.230226284Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-165"
+      },
+      {
+        "id": "PYSEC-2026-1793",
+        "summary": "Pillow buffer overflow vulnerability",
+        "modified": "2026-07-07T17:57:00.234584017Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1793"
+      },
+      {
+        "id": "PYSEC-2026-1794",
+        "summary": "libwebp: OOB write in BuildHuffmanTable",
+        "modified": "2026-07-07T17:56:20.858779255Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-1794"
+      },
+      {
+        "id": "PYSEC-2026-2253",
+        "summary": "",
+        "modified": "2026-07-13T07:26:49.281845979Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2253"
+      },
+      {
+        "id": "PYSEC-2026-2254",
+        "summary": "",
+        "modified": "2026-07-13T07:26:56.196935469Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2254"
+      },
+      {
+        "id": "PYSEC-2026-2255",
+        "summary": "",
+        "modified": "2026-07-13T07:26:26.726353373Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2255"
+      },
+      {
+        "id": "PYSEC-2026-2256",
+        "summary": "",
+        "modified": "2026-07-13T07:26:17.085341343Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2256"
+      },
+      {
+        "id": "PYSEC-2026-2257",
+        "summary": "",
+        "modified": "2026-07-13T07:26:48.229039344Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2257"
+      },
+      {
+        "id": "PYSEC-2026-2874",
+        "summary": "Pillow has a PDF Parsing Trailer Infinite Loop (DoS)",
+        "modified": "2026-07-13T16:42:37.358429541Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-2874"
+      },
+      {
+        "id": "PYSEC-2026-3451",
+        "summary": "",
+        "modified": "2026-07-15T20:11:36.266805254Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3451"
+      },
+      {
+        "id": "PYSEC-2026-3453",
+        "summary": "",
+        "modified": "2026-07-15T20:11:15.582336837Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3453"
+      },
+      {
+        "id": "PYSEC-2026-3454",
+        "summary": "",
+        "modified": "2026-07-22T11:11:36.231472645Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3454"
+      },
+      {
+        "id": "PYSEC-2026-3493",
+        "summary": "Pillow: Out-of-bounds read via attacker-controlled row stride on Pillow's mmap path (McIdas AREA files)",
+        "modified": "2026-07-23T15:11:42.568996050Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3493"
+      },
+      {
+        "id": "PYSEC-2026-3494",
+        "summary": "Pillow TGA RLE encoder can serialize up to ~57 KB of adjacent heap data into generated images",
+        "modified": "2026-07-23T15:11:28.382441947Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3494"
+      },
+      {
+        "id": "PYSEC-2026-3495",
+        "summary": "Pillow: Decompression Bomb DoS via PdfParser.PdfStream.decode()",
+        "modified": "2026-07-23T15:11:28.034031834Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3495"
+      },
+      {
+        "id": "PYSEC-2026-3496",
+        "summary": "Pillow JPEG2000 tiled decode retains a growing scratch buffer and can be used for denial of service",
+        "modified": "2026-07-23T15:11:20.720915099Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-3496"
+      },
+      {
+        "id": "PYSEC-2026-457",
+        "summary": "Arbitrary Code Execution in Pillow",
+        "modified": "2026-07-01T20:23:00.296282Z",
+        "source_url": "https://osv.dev/vulnerability/PYSEC-2026-457"
+      }
+    ]
+  }
+]
