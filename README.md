@@ -180,10 +180,5 @@ Vulnerability data comes from the public [OSV.dev](https://osv.dev) API. The dem
 ## AI-use disclosure
 
 - **Runtime:** Gemini (`gemini-3.1-flash-lite`) is the agent model.
-- **Development:** `<EDIT: list any AI coding assistants you used and for what, e.g. "Claude, for drafting the Streamlit UI and README". The rules require this.>`
+- **Development:** Gemini, for drafting the project description, structuring technical feedback responses, and refining documentation.
 
-All code was reviewed and understood by the authors, who can explain the graph model, queries, and architecture.
-
-## License
-
-MIT (add a `LICENSE` file to the repo).
